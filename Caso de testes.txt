@@ -1,0 +1,52 @@
+ID do Caso de Teste: TC01
+Navegação por Produtos
+Descrição: Verificar se o usuário consegue visualizar diferentes categorias de produtos.
+Pré-condições: O usuário deve estar logado no sistema e na página principal do aplicativo.
+Passos para Execução:
+> Acesse a página principal do aplicativo.
+> Localize o menu de categorias de produtos.
+> Clique em diferentes categorias de produtos.
+> Verifique se a lista de produtos é atualizada conforme a categoria selecionada.
+Resultados Esperados: O usuário deve ser capaz de visualizar diferentes categorias e a lista de produtos deve ser atualizada de acordo com a categoria selecionada.
+
+ID do Caso de Teste: TC02
+Adicionar ao Carrinho
+Descrição do Teste: Verificar se o usuário consegue adicionar um produto ao carrinho.
+Pré-condições: O usuário deve estar logado e visualizar uma página de produto.
+Passos para Execução:
+> Acesse a página de um produto.
+> Clique no botão "Adicionar ao Carrinho".
+> Verifique se o produto foi adicionado ao carrinho.
+Resultados Esperados: O produto deve ser adicionado ao carrinho e o carrinho deve refletir a quantidade correta de itens.
+
+ID do Caso de Teste: TC03
+Finalização da Compra
+Descrição do Teste: Verificar se o usuário consegue finalizar a compra e pagar pelos produtos.
+Pré-condições: O usuário deve ter pelo menos um item no carrinho e estar logado.
+Passos para Execução:
+> Acesse o carrinho de compras.
+> Clique no botão "Finalizar Compra".
+> Preencha as informações de pagamento e envio.
+> Complete a transação.
+Resultados Esperados: O usuário deve receber uma confirmação de compra e o pagamento deve ser processado com sucesso.
+
+ID do Caso de Teste: TC04
+Visualizar Carrinho
+Descrição do Teste: Verificar se o usuário consegue visualizar os itens no carrinho de compras.
+Pré-condições: O usuário deve ter itens no carrinho e estar logado.
+Passos para Execução:
+> Acesse a página do carrinho de compras.
+> Verifique a lista de itens e suas quantidades.
+> Verifique o total da compra.
+Resultados Esperados: O carrinho deve exibir corretamente todos os itens adicionados, suas quantidades e o valor total.
+
+ID do Caso de Teste: TC05
+Buscar Produtos
+Descrição do Teste: Verificar se o usuário consegue buscar produtos usando palavras-chave.
+Pré-condições: O usuário deve estar na página principal do aplicativo.
+Passos para Execução:
+> Localize a barra de busca.
+> Insira uma palavra-chave relacionada ao produto.
+> Clique no botão de busca.
+> Verifique os resultados retornados.
+Resultados Esperados: A busca deve retornar produtos relacionados à palavra-chave inserida.
