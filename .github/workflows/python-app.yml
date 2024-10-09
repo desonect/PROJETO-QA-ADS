@@ -24,4 +24,4 @@ jobs:
 
     - name: Run tests
       run: |
-        pytest main/tests/ --junitxml=results.xml
+        pytest "api tests/" --junitxml=results.xml
